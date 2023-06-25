@@ -19,14 +19,15 @@
                 <p class="alertaTexto">Solo letras minúsculas y sin acentos.</p>
             </div>
             <div class="botonesIzquierdo">
-                <button class="btn-encriptar">Encriptar</button>
-                <button class="btn-desencriptar">Desencriptar</button></div>
+                <button id="btnEncriptar" class="btn-encriptar">Encriptar</button>
+                <button id="btnDesencriptar" class="btn-desencriptar">Desencriptar</button></div>
         </div>
-        <div class="ladoderecho">
-            <img src="Imagenes/Muñeco.svg" alt="">
-            <p>Ningún mensaje fue encontrado</p>
-            <p>Ingresa el texto que desees encriptar o desencriptar.</p>
-            <button>Copiar</button>
+        <div id="ladoderecho" class="ladoderecho ajustado">
+            <img id="muneco" class="muneco" src="Imagenes/Muñeco.svg" alt="">
+            <div class="textoderecho"></div>
+            <textarea id="mensajeFinal" class="mensajeFinal" placeholder="Ningún mensaje fue encontrado"></textarea>
+            <p id="textoInformativo" class="textoInformativo">Ingresa el texto que desees encriptar o desencriptar.</p>
+            <button id="btnCopiar" class="btn-copiar oculto">Copiar</button>
             </div>
         </div>
     </main>

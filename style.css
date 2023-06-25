@@ -29,8 +29,9 @@ body {
 
 .areadetextear {
     width: 80%;
+    height: 90%;
     font-size: 32px;
-    color: #ffb7b2;
+    color: black;
     background: none;
     resize: none;
     border: none;
